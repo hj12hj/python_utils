@@ -7,5 +7,5 @@ setup(
     author_email='864655329@qq.com',
     description='各个常用工具类的封装',
     packages=['common_utils'],
-    # install_requires = ['flask']
+    install_requires=['colorlog']
 )
