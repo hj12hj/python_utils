@@ -19,8 +19,8 @@ def generate_code(data):
     controller_output = controller_template.render(data)
 
     co_append = """
-from controllers.{{name}}_controller import {{name}}_controller
-blueprint_list.append({{name}}_controller)
+from controllers.{{name}}_controller import {{name}}
+blueprint_list.append({{name}})
             """
     co_str_temp = env.from_string(co_append)
 

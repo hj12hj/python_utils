@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='hj-generate',
-    version='2.1.5',
+    version='3.1.0',
     author='hj',
     author_email='864655329@qq.com',
     description='代码生成',
